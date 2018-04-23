@@ -36,4 +36,19 @@ class IntegerToWords {
     }
 }
 
-print(IntegerToWords().numberToWords(123))
+class IntegerToWordsTests {
+    func tests() {
+        print(IntegerToWords().numberToWords(123) == "One Hundred Twenty Three")
+        print(IntegerToWords().numberToWords(0) == "Zero")
+        print(IntegerToWords().numberToWords(1) == "One")
+        print(IntegerToWords().numberToWords(2) == "Two")
+        print(IntegerToWords().numberToWords(3) == "Three")
+        print(IntegerToWords().numberToWords(9) == "Nine")
+        print(IntegerToWords().numberToWords(10) == "Ten")
+    }
+}
+
+IntegerToWordsTests().tests()
+
+
+
