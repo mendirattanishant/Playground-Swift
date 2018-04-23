@@ -45,6 +45,7 @@ class IntegerToWordsTests {
         print(IntegerToWords().numberToWords(3) == "Three")
         print(IntegerToWords().numberToWords(9) == "Nine")
         print(IntegerToWords().numberToWords(10) == "Ten")
+        print(IntegerToWords().numberToWords(11) == "Eleven")
     }
 }
 
