@@ -46,6 +46,19 @@ class IntegerToWordsTests {
         print(IntegerToWords().numberToWords(9) == "Nine")
         print(IntegerToWords().numberToWords(10) == "Ten")
         print(IntegerToWords().numberToWords(11) == "Eleven")
+        print(IntegerToWords().numberToWords(12) == "Twelve")
+        print(IntegerToWords().numberToWords(13) == "Thirteen")
+        print(IntegerToWords().numberToWords(19) == "Nineteen")
+        print(IntegerToWords().numberToWords(20) == "Twenty")
+        print(IntegerToWords().numberToWords(21) == "Twenty One")
+        print(IntegerToWords().numberToWords(30) == "Thirty")
+        print(IntegerToWords().numberToWords(99) == "Ninety Nine")
+        print(IntegerToWords().numberToWords(100) == "One Hundred")
+        print(IntegerToWords().numberToWords(101) == "One Hundred One")
+        print(IntegerToWords().numberToWords(555) == "Five Hundred Fifty Five")
+        print(IntegerToWords().numberToWords(999) == "Nine Hundred Ninety Nine")
+        print(IntegerToWords().numberToWords(12345) == "Twelve Thousand Three Hundred Forty Five")
+        print(IntegerToWords().numberToWords(1234567) == "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven")
     }
 }
 
