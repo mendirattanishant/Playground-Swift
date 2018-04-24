@@ -59,6 +59,7 @@ class IntegerToWordsTests {
         print(IntegerToWords().numberToWords(999) == "Nine Hundred Ninety Nine")
         print(IntegerToWords().numberToWords(12345) == "Twelve Thousand Three Hundred Forty Five")
         print(IntegerToWords().numberToWords(1234567) == "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven")
+        print(IntegerToWords().numberToWords(123456789) == "One Hundred Twenty Three Million Four Hundred Fifty Six Thousand Seven Hundred Eighty Nine")
     }
 }
 
